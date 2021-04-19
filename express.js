@@ -36,7 +36,7 @@ app.get('/api/github/:username', (req, response) => {
         }
         else{
             response.json({
-                RepoCout: Number(data),
+                RepoCount: Number(data),
             });
 
         }
